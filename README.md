@@ -7,12 +7,19 @@
 # Tabela de conteúdos
 
 <!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudos)
    * [Sobre](#Sobre-o-projeto)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#features)
    * [Images Eaxamples](#images-examples)
-   * [Como usar](#como-usar)
-      * [Pré-Requisitos](#pre-requisitos)
+   * [Como usar](#Preparando-Ambiente-de-Desenvolvimento)
+      * [Pré-Requisitos](#Pre-requisitos)
+      * [Procedimento de Instalação](#Procedimento-de-Instalação)
+         * [Instalação SDK-PICO](#Instalação-SDK-PICO)
+         * [Instalação CMake](#Instalação-CMake)
+         * [Instalação Build Visual Studio](#Instalação-Build-Visual-Studio)
+         * [Instalação MinGW](#Instalação-MinGW)
+         * [Instalação GCC-ARM](#Instalação-GCC-ARM)
+         * [Preparando as Variáveis de Ambiente](#Preparando-as-Variáveis-de-Ambiente)
 <!--    * [Tests](#testes) -->
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
@@ -40,12 +47,15 @@ Antes de começar a utilizar o microcontrolador Raspberry Pi, é necessário ins
   * [MinGW - Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/)
   * [GCC Arm GNU Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads)
   * [VS Code](https://code.visualstudio.com/Download)
+
 ### Procedimento de Instalação
+
 #### Instalação SDK-PICO
 Para instalar o SDK-PICO, basta acessar o github do Raspberry Pi e fazer o download zip do projeto [SDK-PICO](https://github.com/raspberrypi/pico-sdk).
    <br>
    <img src=".tutorial/Tutorial-1.png" width="1000px;" alt="Baixar SDK-Pico"/>
    <br>
+
 #### Instalação CMake
 Faça o download do [instalador do CMake](https://cmake.org/download/) e siga os procedimentos de instalação padrão.
    <br>
@@ -60,6 +70,7 @@ Faça o download do [instalador do CMake](https://cmake.org/download/) e siga os
    <br>
    <img src=".tutorial/cmake-7.png" width="500px;" alt="CMake - Passo 7"/>
    <br>
+   
 #### Instalação Build Visual Studio
 Faça o download do [instalador do Build Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) e siga os procedimentos de instalação padrão.
    <br>
@@ -68,6 +79,7 @@ Faça o download do [instalador do Build Visual Studio](https://visualstudio.mic
    <br>
    <img src=".tutorial/BuildVisualStudio-3.png" width="1000px;" alt="Build Visual Studio - Passo 3"/>
    <br>
+
 #### Instalação MinGW
 Faça o download do [instalador do MinGW](https://sourceforge.net/projects/mingw/)e siga os procedimentos de instalação padrão.
     <br>
@@ -83,6 +95,7 @@ Faça o download do [instalador do MinGW](https://sourceforge.net/projects/mingw
    <br>
    <img src=".tutorial/mingw-7.png" width="1000px;" alt="MinGW - Passo 7"/>
    <br>
+
 #### Instalação GCC-ARM
 Faça o download do [instalador do MinGW](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads) e siga os procedimentos de instalação padrão.
    <br>
@@ -95,7 +108,8 @@ Faça o download do [instalador do MinGW](https://developer.arm.com/tools-and-so
    <img src=".tutorial/gcc-arm-5.png" width="500px;" alt="GCC ARM - Passo 5"/>
    <img src=".tutorial/gcc-arm-6.png" width="500px;" alt="GCC ARM - Passo 6"/>
    <br>
-#### Preparando as Variáveis de Ambiente
+
+### Preparando as Variáveis de Ambiente
 Após realizar as instalações necessárias, é preciso configurar as Variáveis de Ambiente. Para isso, digite "variaveis de ambiente" no menu iniciar e selecione "Editar Variaveis de Ambiente para sua conta".
    <br>
    <img src=".tutorial/env-1.png" width="500px;" alt="Configurar Ambiente - Passo 1"/>
@@ -111,3 +125,5 @@ Após, selecione o "Path" e clique em "Editar". Adicione os caminhos referentes 
    <img src=".tutorial/env-5.png" width="500px;" alt="Configurar Ambiente - Passo 5"/>
    <br>
    <img src=".tutorial/env-6.png" width="500px;" alt="Configurar Ambiente - Passo 6"/>
+
+#### Configurando o VSCode
