@@ -47,12 +47,12 @@ Para instalar o SDK-PICO, basta acessar o github do Raspberry Pi e fazer o downl
 
 #### Instalação CMake
 Faça o download do [instalador do CMake](https://cmake.org/download/) e siga os procedimentos de instalação padrão.
-   <img src=".tutorial/cmake-1.png" width="1000px;" alt="CMake - Passo 1"/>
-   <img src=".tutorial/cmake-2.png" width="1000px;" alt="CMake - Passo 2"/>
-   <img src=".tutorial/cmake-3.png" width="1000px;" alt="CMake - Passo 3"/>
-   <img src=".tutorial/cmake-4.png" width="1000px;" alt="CMake - Passo 4"/>
-   <img src=".tutorial/cmake-5.png" width="1000px;" alt="CMake - Passo 5"/>
-   <img src=".tutorial/cmake-6.png" width="1000px;" alt="CMake - Passo 6"/>
-   <img src=".tutorial/cmake-7.png" width="1000px;" alt="CMake - Passo 7"/>
+   <img src=".tutorial/cmake-1.png" width="800px;" alt="CMake - Passo 1"/>
+   <img src=".tutorial/cmake-2.png" width="800px;" alt="CMake - Passo 2"/>
+   <img src=".tutorial/cmake-3.png" width="800px;" alt="CMake - Passo 3"/>
+   <img src=".tutorial/cmake-4.png" width="800px;" alt="CMake - Passo 4"/>
+   <img src=".tutorial/cmake-5.png" width="800px;" alt="CMake - Passo 5"/>
+   <img src=".tutorial/cmake-6.png" width="800px;" alt="CMake - Passo 6"/>
+   <img src=".tutorial/cmake-7.png" width="800px;" alt="CMake - Passo 7"/>
 
 #### Instalação Build Visual Studio
