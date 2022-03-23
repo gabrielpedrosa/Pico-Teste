@@ -29,7 +29,7 @@ Criação de um programa teste para estudar o microcontrolador Raspberry Pi Pico
 - [x] Blink
 
 
-## Como Usar
+## Preparando Ambiente de Desenvolvimento
 
 ### Pré-requisitos
 Antes de começar a utilizar o microcontrolador Raspberry Pi, é necessário instalar a SDK par autilização do Pico. Esta SDK é disponibilizada gratuitamente em [Raspberry Pi](https://github.com/raspberrypi). A seguir, há uma lista de pré-requisitos para essa instalação. Logo após, em [Procedimento de Intalação](#procedimento-de-instalação) há um tutorial de como instalar e configurar o ambiente de desenvolvimento, bem como configurar o VSCode.
@@ -56,3 +56,37 @@ Faça o download do [instalador do CMake](https://cmake.org/download/) e siga os
    <img src=".tutorial/cmake-7.png" width="1000px;" alt="CMake - Passo 7"/>
 
 #### Instalação Build Visual Studio
+Faça o download do [instalador do Build Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) e siga os procedimentos de instalação padrão.
+   <img src=".tutorial/BuildVisualStudio-1.png" width="1000px;" alt="Build Visual Studio - Passo 1"/>
+   <img src=".tutorial/BuildVisualStudio-2.png" width="1000px;" alt="Build Visual Studio - Passo 2"/>
+   <img src=".tutorial/BuildVisualStudio-3.png" width="1000px;" alt="Build Visual Studio - Passo 3"/>
+
+#### Instalação MinGW
+Faça o download do [instalador do MinGW](https://sourceforge.net/projects/mingw/)e siga os procedimentos de instalação padrão.
+   <img src=".tutorial/mingw-1.png" width="1000px;" alt="MinGW - Passo 1"/>
+   <img src=".tutorial/mingw-2.png" width="1000px;" alt="MinGW - Passo 2"/>
+   <img src=".tutorial/mingw-3.png" width="1000px;" alt="MinGW - Passo 3"/>
+   <img src=".tutorial/mingw-4.png" width="1000px;" alt="MinGW - Passo 4"/>
+   <img src=".tutorial/mingw-5.png" width="1000px;" alt="MinGW - Passo 5"/>
+   <img src=".tutorial/mingw-6.png" width="1000px;" alt="MinGW - Passo 6"/>
+   <img src=".tutorial/mingw-7.png" width="1000px;" alt="MinGW - Passo 7"/>
+
+#### Instalação GCC-ARM
+Faça o download do [instalador do MinGW](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads) e siga os procedimentos de instalação padrão.
+   <img src=".tutorial/gcc-arm-1.png" width="1000px;" alt="GCC ARM - Passo 1"/>
+   <img src=".tutorial/gcc-arm-2.png" width="1000px;" alt="GCC ARM - Passo 2"/>
+   <img src=".tutorial/gcc-arm-3.png" width="1000px;" alt="GCC ARM - Passo 3"/>
+   <img src=".tutorial/gcc-arm-4.png" width="1000px;" alt="GCC ARM - Passo 4"/>
+   <img src=".tutorial/gcc-arm-5.png" width="1000px;" alt="GCC ARM - Passo 5"/>
+   <img src=".tutorial/gcc-arm-6.png" width="1000px;" alt="GCC ARM - Passo 6"/>
+
+#### Preparando as Variáveis de Ambiente
+Após realizar as instalações necessárias, é preciso configurar as Variáveis de Ambiente. Para isso, digite "variaveis de ambiente" no menu iniciar e selecione "Editar Variaveis de Ambiente para sua conta".
+   <img src=".tutorial/env-1.png" width="1000px;" alt="Configurar Ambiente - Passo 1"/>
+Em "Variaveis de Usuário" clique em novo e crie uma nova variável com o nome "PICO_SDK_PATH" (Deve ser escrito dessa exata forma) e em valor coloque o caminho do SDK-PICO criado anteriormente, clique em "OK".
+   <img src=".tutorial/env-2.png" width="1000px;" alt="Configurar Ambiente - Passo 2"/>
+   <img src=".tutorial/env-3.png" width="1000px;" alt="Configurar Ambiente - Passo 3"/>
+Após, selecione o "Path" e clique em "Editar". Adicione os caminhos referentes ao CMake, MinGW, GCC ARM. Garanta também que o Python está instalado e seu caminho esteja em path. O mesmo vale para o Visual Studio Code. Por fim clique em "OK".
+   <img src=".tutorial/env-4.png" width="1000px;" alt="Configurar Ambiente - Passo 4"/>
+   <img src=".tutorial/env-5.png" width="1000px;" alt="Configurar Ambiente - Passo 5"/>
+   <img src=".tutorial/env-6.png" width="1000px;" alt="Configurar Ambiente - Passo 6"/>
