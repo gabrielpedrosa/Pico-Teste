@@ -44,10 +44,9 @@ Antes de começar a utilizar o microcontrolador Raspberry Pi, é necessário ins
 #### Instalação SDK-PICO
 Para instalar o SDK-PICO, basta acessar o github do Raspberry Pi e fazer o download zip do projeto [SDK-PICO](https://github.com/raspberrypi/pico-sdk).
    <img src=".tutorial/Tutorial-1.png" width="1000px;" alt="Baixar SDK-Pico"/>
-   
+
 #### Instalação CMake
 Faça o download do [instalador do CMake](https://cmake.org/download/) e siga os procedimentos de instalação padrão.
-   <img src=".tutorial/Tutorial-1.png" width="1000px;" alt="Baixar SDK-Pico"/>
    <img src=".tutorial/cmake-1.png" width="1000px;" alt="CMake - Passo 1"/>
    <img src=".tutorial/cmake-2.png" width="1000px;" alt="CMake - Passo 2"/>
    <img src=".tutorial/cmake-3.png" width="1000px;" alt="CMake - Passo 3"/>
