@@ -42,4 +42,4 @@ Antes de começar a utilizar o microcontrolador Raspberry Pi, é necessário ins
   * [VS Code](https://code.visualstudio.com/Download)
 ### Procedimento de Instalação
 Para instalar o SDK-PICO, basta acessar o github do Raspberry Pi e fazer o download zip do projeto [SDK-PICO](https://github.com/raspberrypi/pico-sdk).
-    <img src=".tutorial/Tutorial-1.png" width="100px;" alt="Baixar SDK-Pico"/>
+    <img src=".tutorial/Tutorial-1.png" width="1000px;" alt="Baixar SDK-Pico"/>
